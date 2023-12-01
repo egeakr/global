@@ -1,0 +1,183 @@
+body {
+  font-family: Roboto;
+  background: grey;
+  text-align: center;
+}
+
+.carousel.carousel-slider {
+  margin: 0px auto;
+  overflow: visible;
+}
+
+.carousel .slide {
+  color: white;
+  background: rgb(0, 0, 0);
+}
+
+.carousel .slide-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+}
+
+.carousel .slide img {
+  margin: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.carousel .slide .porsche {
+  width: 80.5%;
+}
+
+.carousel .slide .mustang {
+  width: 86%;
+}
+
+.carousel .slide .gtr {
+  width: 53.5%;
+}
+.carousel .slide .bmw {
+  width: 53.5%;
+}
+.carousel .text-container {
+  padding: 30px;
+  text-align: left;
+}
+
+.carousel .text-container h2 {
+  margin-top: 0px;
+  font-size: xx-large;
+}
+
+.carousel .text-container p:last-child {
+  margin-bottom: 0px;
+}
+
+.carousel .control-dots {
+  bottom: -40px;
+}
+
+.carousel .thumbs-wrapper {
+  margin: 30px;
+}
+
+/* Responsive Styles */
+
+@media (min-width: 2000px) {
+  .carousel .slide-holder {
+    width:100%;
+  }
+  .carousel .slide .porsche {
+    max-width: 53.5%;
+    width: 53.5%;
+    height: 90%;
+    max-height: 90%;
+  }
+
+  .carousel .slide .mustang {
+    max-width: 86%;
+    width: 86%;
+    max-height: 90%;
+    height: 90%;
+  }
+
+  .carousel .slide .gtr {
+    max-width: 52%;
+    width: 53.5%;
+    height: 90%;
+    max-height: 90%;
+  
+  }
+  .carousel .slide .bmw {
+    max-width:70%;
+    height: 90%;
+    width: 90%;
+    max-height: 100%;
+  
+  }
+  .carousel{
+    max-width:100%;
+  }
+}
+@media (max-width: 2000px) {
+  .carousel .slide-holder {
+    max-width:100%;
+  }
+  .carousel .slide .porsche {
+    max-width: 55%;
+    width: 53.5%;
+    height: 90%;
+    max-height: 90%;
+  }
+
+  .carousel .slide .mustang {
+    max-width: 60%;
+    width: 54%;
+    max-height: 90%;
+    height: 90%;
+  }
+
+  .carousel .slide .gtr {
+    max-width: 53%;
+    width: 53.5%;
+    height: 90%;
+    max-height: 90%;
+  
+  }
+  .carousel .slide .bmw {
+    max-width:90%;
+    width: 54%;
+    height: 90%;
+    max-height: 100%;
+  
+  }
+  .carousel{
+    max-width:100%;
+  }
+}
+@media (max-width: 700px) {
+  .carousel .slide-holder {
+    max-width:100%;
+    max-height: 50%;
+    flex-direction: column;
+    padding-top: 13%;
+  }
+  .text-container{
+    margin-top: 3.5%;
+  }
+  .carousel .slide .porsche {
+    position: relative;
+    max-width:85%;
+    width:85%;;
+    max-height: 50%;
+  }
+
+  .carousel .slide .mustang {
+    position: relative;
+    max-width:85%;
+    width:85%;
+    max-height: 50%;
+  }
+
+  .carousel .slide .gtr {
+    position: relative;
+    max-width:85%;
+    width:85%;
+    max-height: 50%;
+  }
+  .carousel .slide .bmw {
+    position: relative;
+    max-width:85%;
+    width:85%;
+    max-height: 50%;
+  
+  }
+  .carousel{
+    max-width:100%;
+  }
+}
+
+

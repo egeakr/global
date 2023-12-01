@@ -1,0 +1,22 @@
+.gif{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+   
+}
+@media(max-width: 1116px){
+    .gif{
+        margin-top: 10%;
+    }
+}
+
+@media(max-width: 700px){
+    .gif{
+        margin-top: 15%;
+    }
+}
+@media(max-width: 420px){
+    .gif{
+        margin-top: 20%;
+    }
+}

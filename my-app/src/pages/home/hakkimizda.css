@@ -1,0 +1,13 @@
+
+.accordion {
+    background: black;
+    color: white;
+  }
+  
+  .accordion .accordion-header {
+    background: black;
+    color: white;
+  }
+  p{
+    color: white;
+  }

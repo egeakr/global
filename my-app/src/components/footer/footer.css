@@ -1,0 +1,30 @@
+
+.resim{
+    width: 100%;
+    height: 25%;
+    
+}
+.text{
+    margin-top: -10%;
+    color: rgb(255, 255, 255);
+   
+}
+.iletişim_bilgileri{
+    margin-top: -7%;
+    margin-left: 60%;
+    position: absolute;
+}
+.map{
+    margin-top: 5%;
+    margin-left: 120%;
+}
+.link{
+    margin-left: 20%;
+}
+.iletişim_bilgileri{
+    text-align: center;
+}
+.text2{
+    position: absolute;
+    margin-top: 8%;
+}
